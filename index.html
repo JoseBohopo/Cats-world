@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Cats</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <h1>Cat Lovers</h1>
+
+    <span id="error"></span>
+    <section id="containerCatsSection">
+      <h2>Random Cats</h2>
+      <section id="catsImageWrapper"></section>
+      <button id="buttonSwap">Swap Image</button>
+    </section>
+    <h2 id="uploadTitle">Upload your cats image</h2>
+
+    <section id="uploadingCat">
+      <img id="preloadPhoto" alt="" />
+      <form id="uploadingForm">
+        <input id="file" type="file" name="file" />
+        <button id="buttonUpload" type="button" onclick="uploadCatForm()">
+          Upload Image
+        </button>
+      </form>
+    </section>
+
+    <section id="containerCatsSection">
+      <h2>Favorite cats</h2>
+      <section id="catsImageWrapper2"></section>
+    </section>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
