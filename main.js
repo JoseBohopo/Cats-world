@@ -132,6 +132,9 @@ inputImg.addEventListener("change", (event) => {
   const img = createReference("preloadPhoto");
   const pathImage = URL.createObjectURL(event.target.files[0]);
   img.src = pathImage;
+  output.onload = function () {
+    URL.revokeObjectURL(output.src); // free memory
+  };
 });
 
 const uploadCatForm = async () => {
