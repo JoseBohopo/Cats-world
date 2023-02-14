@@ -1,0 +1,19 @@
+{
+  "name": "curso-practico-api",
+  "version": "1.0.0",
+  "description": "This is a repository created to consume APIs",
+  "main": "main.js",
+  "scripts": {
+    "deploy": "gh-pages -d src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseBohopo/Cats-world.git"
+  },
+  "author": "Jose Bohopo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoseBohopo/Cats-world/issues"
+  },
+  "homepage": "https://github.com/JoseBohopo/Cats-world#readme"
+}
